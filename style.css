@@ -42,8 +42,8 @@ main {
 .container {
   background: white;
   border-radius: 20px;
-  width: 400px;
-  height: 430px;
+  width: 370px;
+  height: 400px;
   align-items: center;
   overflow: hidden;
 }
@@ -62,22 +62,22 @@ main {
   margin-bottom: 20px;
 }
 
-.content h2 {
+.content h1 {
   font-size: 18px;
 }
 
 .content span {
   color: var(--dark-gray);
   font-weight: 400;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .paragraph p {
   margin-top: 10px;
   color: var(--dark-gray);
-  border-bottom: 1px solid var(--dark-gray);
-  padding-bottom: 17px;
-  margin-bottom: 17px;
+  border-bottom: 1px solid #d0d0d0;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .stats {
@@ -86,7 +86,7 @@ main {
   justify-content: space-between;
   margin: 20px auto;
   margin-top: 30px;
-  width: 300px;
+  width: 270px;
 }
 .stats .num {
   font-weight: 700;
@@ -101,5 +101,6 @@ main {
 .stats p {
   margin-top: 5px;
   color: var(--dark-gray);
-  font-size: 15px;
+  font-size: 11px;
+  letter-spacing: 1px;
 }
